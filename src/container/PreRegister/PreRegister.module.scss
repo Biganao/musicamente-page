@@ -1,0 +1,189 @@
+.PreRegister {
+  position: relative;
+  top: -2em;
+  margin: -2em 0;
+  background-color: #131a20;
+  .container {
+    width: 100%;
+    margin: 4em 10em;
+    .Form {
+      width: 60%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+      margin-right: 5em;
+      h1 {
+        font-family: "Megrim", sans-serif;
+        font-size: 50pt;
+        margin: 1em 0;
+        color: #fff;
+        span {
+          color: #f93235;
+        }
+      }
+      form {
+        width: 100%;
+        input {
+          padding: 1em 1em;
+          width: 100%;
+          border-radius: 5px;
+          background-color: #192229;
+          outline: none;
+          color: #fff;
+        }
+      }
+      p {
+        margin: 2em 0;
+      }
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f93235;
+        padding: 0.8em 1.5em;
+        width: 12em;
+        border-radius: 5px;
+        font-size: 14pt;
+        margin: 1.75em 0;
+        a {
+          display: flex;
+        }
+      }
+    }
+    .PreRegisterImg {
+      width: 35%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .PreRegister {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 24em 5em;
+      .Form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 5em;
+        h1 {
+          font-size: 64pt;
+          text-align: center;
+        }
+        p {
+          text-align: center;
+          margin: 2em 10em;
+        }
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 13pt;
+        }
+      }
+      .PreRegisterImg {
+        position: relative;
+        top: -2em;
+        width: 35%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .PreRegister {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 20em 5em;
+      .Form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 5em;
+        h1 {
+          font-size: 38pt;
+          text-align: center;
+        }
+        form {
+          width: 90%;
+        }
+        p {
+          text-align: center;
+          margin: 2em;
+        }
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 13pt;
+        }
+      }
+      .PreRegisterImg {
+        position: relative;
+        top: 2em;
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 612px) {
+  .PreRegister {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 15em 15em;
+      .Form {
+        width: 100%;
+        margin: 6em;
+        h1 {
+          font-size: 29pt;
+          text-align: center;
+        }
+        form {
+          width: 90%;
+        }
+        p {
+          font-size: 13pt;
+          text-align: center;
+          margin: 0 2em;
+        }
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 2em 4em;
+          font-size: 13pt;
+        }
+      }
+      .PreRegisterImg {
+        position: relative;
+        top: -2em;
+        width: 70%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

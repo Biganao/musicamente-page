@@ -1,0 +1,73 @@
+.Dynamics {
+  position: relative;
+  top: -3em;
+  background-color: #192229;
+  .container {
+    width: 100%;
+    margin: 4em 10em;
+    .DynamicsText {
+      width: 100%;
+      h1 {
+        font-family: "Megrim", sans-serif;
+        font-size: 64pt;
+        line-height: 1.5em;
+        margin: 1.5em 0;
+        color: #fff;
+        span {
+          color: #f93235;
+        }
+      }
+      p {
+        margin: 2em 0;
+      }
+    }
+    .grid {
+      .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #131a20;
+        h3 {
+          color: #fff;
+        }
+        span {
+          padding: 1em;
+          background-color: #f93235;
+          border-radius: 50%;
+          margin: 1em 0;
+          svg {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Dynamics {
+    padding: 14em 0;
+    .container {
+      .DynamicsText {
+        h1 {
+          font-size: 50pt;
+          line-height: 1em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 612px) {
+  .Dynamics {
+    padding: 12em 0;
+    .container {
+      .DynamicsText {
+        h1 {
+          font-size: 32pt;
+        }
+      }
+    }
+  }
+}
