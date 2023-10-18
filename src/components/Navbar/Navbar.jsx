@@ -78,7 +78,7 @@ const Navigationbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="" target="blank">
+                  <a href="https://github.com/Biganao/musicamente-page" target="blank">
                     <FaGithub />
                   </a>
                 </li>

@@ -23,7 +23,10 @@ const Footer = () => {
           </p>
           <div className={styles.borderline}></div>
           <div className={styles.LinksIcons}>
-            <a href="" target="blank">
+            <a
+              href="https://github.com/Biganao/musicamente-page"
+              target="blank"
+            >
               <BsGithub />
             </a>
             <a href="" target="blank">
@@ -33,12 +36,17 @@ const Footer = () => {
         </div>
         <div className={styles.LinksWork}>
           <h1 className={styles.HeadText}>
-            {" "}
-            <span>Informações</span> Legais
+            <span>Seções</span> Anteriores
           </h1>
-          <p> FAQ </p>
-          <p> Politica de Privacidade</p>
-          <p> Termos e Condições</p>
+          <p>
+            <a href="#aboutus">Sobre</a>
+          </p>
+          <p>
+            <a href="#dynamics">Recursos</a>
+          </p>
+          <p>
+            <a href="#preregister">Explore</a>
+          </p>
         </div>
       </div>
       <div className={styles.Copyright}>
