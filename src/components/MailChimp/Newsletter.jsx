@@ -53,7 +53,7 @@ export const Newsletter = ({ onValidated, status, message }) => {
           {status === "sending" && <Alert> Enviando... </Alert>}
           {status === "error" && <Alert variant="dander">{message}</Alert>}
           {status === "success" && (
-            <Alert variant="success">Pré-Registro Concluido {message}</Alert>
+            <Alert variant="success">Pré-Registro Concluido</Alert>
           )}
           <form onSubmit={handleSubmit}>
             <input
