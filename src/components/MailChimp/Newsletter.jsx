@@ -32,17 +32,16 @@ export const Newsletter = ({ onValidated, status, message }) => {
           {status === "error" && <Alert variant="dander">{message}</Alert>}
           {status === "success" && <Alert variant="success">Pré-Registro Concluido</Alert>}
           <form onSubmit={handleSubmit}>
-            <div>
               <input
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Digite o seu Email"
+                className="mt-14"
               />
               <button type="submit" className="text-white font-semibold">
                 Enviar
               </button>
-            </div>
           </form>
         </Col>
       </Row>
