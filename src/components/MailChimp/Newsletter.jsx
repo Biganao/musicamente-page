@@ -51,7 +51,7 @@ export const Newsletter = ({ onValidated, status, message }) => {
       <Row>
         <Col md={6} xl={12}>
           {status === "sending" && <Alert> Enviando... </Alert>}
-          {status === "error" && <Alert variant="dander">{message}</Alert>}
+          {status === "error" && <Alert variant="danger">{message}</Alert>}
           {status === "success" && (
             <Alert variant="success">Pré-Registro Concluido</Alert>
           )}
