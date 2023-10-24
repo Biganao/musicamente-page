@@ -7,7 +7,7 @@ const Footer = () => {
       <div className={styles.FooterLinks}>
         <div className={styles.LinksContact}>
           <h1 className={styles.HeadText}>
-            <span>Contate</span>-nós
+            <span>Contate</span>-nos
           </h1>
           <p>musicamente7@gmail.com</p>
           <p>@musicamente7</p>
