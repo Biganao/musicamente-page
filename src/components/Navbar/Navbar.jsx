@@ -73,7 +73,7 @@ const Navigationbar = () => {
               </Nav.Link>
               <ul className={styles.socialIcons}>
                 <li>
-                  <a href="" target="blank">
+                  <a href="https://www.instagram.com/musicamente7/" target="blank">
                     <FaInstagram />
                   </a>
                 </li>

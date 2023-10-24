@@ -9,9 +9,8 @@ const Footer = () => {
           <h1 className={styles.HeadText}>
             <span>Contate</span>-nós
           </h1>
-          <p>musicamente@gmail.com</p>
-          <p>+1 212-344-1230</p>
-          <p>+1 212-344-1230</p>
+          <p>musicamente7@gmail.com</p>
+          <p>@musicamente7</p>
         </div>
         <div className={styles.LinksLogo}>
           <h1 className={styles.LogoName}>
@@ -29,7 +28,7 @@ const Footer = () => {
             >
               <BsGithub />
             </a>
-            <a href="" target="blank">
+            <a href="https://www.instagram.com/musicamente7/" target="blank">
               <BsInstagram />
             </a>
           </div>
@@ -50,7 +49,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.Copyright}>
-        <p>2023 MusicaMente. Todos os Direitos Reservados</p>
+        <p>2023 &copy; MusicaMente. Todos os Direitos Reservados</p>
       </div>
     </div>
   );

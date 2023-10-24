@@ -217,3 +217,11 @@
     }
   }
 }
+
+@media screen and (max-height: 480px) {
+  .banner {
+    .container {
+      margin: 25em 15em;
+    }
+  }
+}

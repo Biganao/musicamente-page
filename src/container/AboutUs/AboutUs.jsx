@@ -23,7 +23,7 @@ const AboutUs = () => {
           O MusicaMente é um projeto dedicado à música, unindo entusiastas, artistas e amantes de diferentes culturas musicais. Promovemos a expressão e a conexão por meio da música, valorizando a diversidade sonora e inspirando a criatividade.
           </p>
           <button className="flex mt-8 text-white">
-            <a href="#preregister">
+            <a href="https://www.instagram.com/musicamente7/">
               Saiba mais
               <TbCircleArrowRight size={27} />
             </a>
