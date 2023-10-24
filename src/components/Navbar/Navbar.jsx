@@ -34,7 +34,7 @@ const Navigationbar = () => {
                 </p>
               </div>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" className="flex flex-wrap relative -left-32 top-0 sm:-left-12"/>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" className="flex flex-wrap relative -left-32 top-0 sm:-left-12 ssm:border-none"/>
           </div>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className={`me-auto ${styles.navItems}`}>

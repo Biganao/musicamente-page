@@ -71,3 +71,16 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .Dynamics {
+    padding: 33em 0 35em 0;
+    .container {
+      .DynamicsText {
+        h1 {
+          font-size: 25pt;
+        }
+      }
+    }
+  }
+}

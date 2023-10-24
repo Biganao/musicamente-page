@@ -187,3 +187,42 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .PreRegister {
+    .container {
+      margin: 15em 15em 12em 15em;
+      .Form {
+        width: 100%;
+        margin: 6em;
+        h1 {
+          font-size: 23pt;
+          text-align: center;
+        }
+        form {
+          width: 100%;
+        }
+        p {
+          font-size: 11pt;
+          text-align: center;
+          margin: 0 2em;
+        }
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 2em 4em;
+          font-size: 11pt;
+        }
+      }
+      .PreRegisterImg {
+        position: relative;
+        top: -2em;
+        width: 70%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

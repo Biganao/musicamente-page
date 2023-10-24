@@ -169,3 +169,51 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .banner {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10em 15em;
+      .bannerText {
+        width: 100%;
+        margin: 6em;
+        h1 {
+          font-size: 35pt;
+          text-align: center;
+        }
+        p {
+          font-size: 10pt;
+          text-align: center;
+          margin: 0 2em;
+        }
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 2em 4em;
+          font-size: 12pt;
+        }
+      }
+      .heroImg {
+        position: relative;
+        top: -2em;
+        width: 70%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .banner {
+    .container {
+      margin: 20em 15em;
+    }
+  }
+}

@@ -146,3 +146,17 @@
     padding: 0 0 2rem 0;
   }
 }
+
+@media screen and (max-width: 4800px) {
+  .Footer {
+    .FooterLinks {
+      .LinksContact,
+      .LinksLogo,
+      .LinksWork {
+        .LogoName {
+          font-size: 33pt;
+        }
+      }
+    }
+  }
+}

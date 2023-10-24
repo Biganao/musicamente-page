@@ -172,3 +172,39 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .AboutUs {
+    .container {
+      margin: 23em 15em;
+      .AboutText {
+        width: 100%;
+        margin: 6em;
+        h1 {
+          font-size: 35pt;
+          text-align: center;
+        }
+        p {
+          font-size: 10pt;
+          text-align: center;
+          margin: 0 2em;
+        }
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 2em 4em;
+          font-size: 12pt;
+        }
+      }
+      .AboutImg {
+        position: relative;
+        top: -2em;
+        width: 70%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
